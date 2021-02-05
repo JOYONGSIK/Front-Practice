@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>인하대학교 INHA-BAS</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+
+    <!-- 지도 스크립트 -->
+    <script charset="UTF-8" class="daum_roughmap_loader_script"
+            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+    <!-- 제이쿼리 스크립트 -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body class="is-preload">
+
+<!-- 상단 메뉴 -->
+<header id="header">
+    <h1><a href="#">INHA BAS</a></h1>
+    <nav>
+        <ul>
+            <li><a href="#intro">소개</a></li>
+            <li><a href="#one">목표</a></li>
+            <li><a href="#two">활동시간 및 장소</a></li>
+            <li><a href="#work">활동내용</a></li>
+            <li><a href="#join">지원</a></li>
+            <li><a href="#contact">문의</a></li>
+            <li style="font-weight: bold" class="login">
+                <button><a href="login.html">로그인</a>
+                </button>
+            </li>
+        </ul>
+    </nav>
+</header>
+<!-- 소개 -->
+<section id="intro" class="main style1 dark fullscreen">
+    <div class="content">
+        <header>
+            <h2>안녕하세요?</h2>
+        </header>
+        <p>인하대학교 왕돈까스 탐구 동아리<strong>Inha BAS(Business Analysts Society)</strong>입니다.<br/>
+            <strong>Inha BAS (Business Analysis Society)</strong>, a big data research club at Inha University.
+        <footer>
+            <a href="#one" class="button style2 down">More</a>
+        </footer>
+    </div>
+</section>
+
+<!-- 목표 -->
+<section id="one" class="main style2 right dark fullscreen">
+    <div class="content box style2">
+        <header>
+            <h2>INHA BAS, 목표</h2>
+        </header>
+        <p>'Inha BAS(Business Analysts Society)'는 왕돈까스 탐구를 <br> 통하여 취업해서 돈까스를 사먹을 수 있게 하는게 목표입니다.<br><br>
+            Inha BAS는 돈까스에 관심이 있는 사람이 모여서 기초부터<br>하나하나 쌓아가기 위해 만든 왕돈까스 탐구 동아리입니다.</p>
+    </div>
+    <a href="#two" class="button style2 down anchored">Next</a>
+</section>
+
+<!-- 활동시간 및 장소 -->
+<section id="two" class="main style2 left dark fullscreen">
+    <div class="box">
+        <header>
+            <h2>INHA BAS, 활동시간 및 장소</h2>
+        </header>
+        <p>매주 수요일 오후 7시<br>
+            사회적 거리두기 단계에 따라 온/오프 병행<br>
+            온라인 : 줌(Zoom)<br>
+            오프라인 : 교내 강의실<br>
+        </p></div>
+
+    <div class="content box" style="width: 720px; min-width: 720px; height: 50%;">
+        <div id="daumRoughmapContainer1610779310691" class="root_daum_roughmap root_daum_roughmap_landing">
+        </div>
+    </div>
+
+    <a href="#work" class="button style2 down anchored">Next</a>
+</section>
+
+<!-- 활동내용 -->
+<section id="work" class="main style3 primary">
+    <div class="content">
+        <header>
+            <h2>INHA BAS, 활동내용</h2>
+            <p>프로그래밍 언어(R, 파이썬) 학습, 통계지식 학습, 빅데이터 이론 스터디, 데이터 시각화<br>
+                방학 중 특강진행(교수님 or 강사님 초청)등 맘에 드는 활동을 골라보세요!</p>
+        </header>
+
+        <!-- Gallery  -->
+        <div class="gallery">
+            <article class="from-left">
+                <a href="images/thumbs/photo1.png" class="image fit"><img src="images/thumbs/photo1.png"
+                                                                          title="SQL/Select 강의, 월 - 수 16:00 ~ 18:00"
+                                                                          alt=""/></a>
+            </article>
+            <article class="from-right">
+                <a href="images/thumbs/photo2.png" class="image fit"><img src="images/thumbs/photo2.png"
+                                                                          title="R 강화 학습 강의, 화요일 18:00 ~ 20:00"
+                                                                          alt=""/></a>
+            </article>
+            <article class="from-left">
+                <a href="images/thumbs/photo3.png" class="image fit"><img src="images/thumbs/photo3.png"
+                                                                          title="SQL 데이터 분석 강의, 목 - 금 18:00 ~ 20:00"
+                                                                          alt=""/></a>
+            </article>
+            <article class="from-right">
+                <a href="images/thumbs/photo4.png" class="image fit"><img src="images/thumbs/photo4.png"
+                                                                          title="Python Machine Learning 강의, 토 - 일 12:00 ~ 16:00"
+                                                                          alt=""/></a>
+            </article>
+            <article class="from-left">
+                <a href="images/thumbs/photo5.png" class="image fit"><img src="images/thumbs/photo5.png"
+                                                                          title="Python 데이터 마이닝 스크래핑 강의, 일요일 12:00 ~ 18:00"
+                                                                          alt=""/></a>
+            </article>
+            <article class="from-right">
+                <a href="images/thumbs/photo6.png" class="image fit"><img src="images/thumbs/photo6.png"
+                                                                          title="Pandas 강의, 수 - 목 20:00 ~ 22:00"
+                                                                          alt=""/></a>
+            </article>
+        </div>
+    </div>
+    <a href="#join" class="button style2 down anchored">Next</a>
+</section>
+
+<!-- 지원 -->
+<section id="join" class="main style2 right dark fullscreen">
+    <div class="content box style2">
+        <header>
+            <h2>INHA BAS, 지원</h2>
+        </header>
+        <p>우리와 함께 왕돈까스 분석 동아리에 함께할래요?<br><span style="font-weight: bold; font-size: 1.3rem;">2021년 1학기 모집 기간 : 2021.03.01 ~ 2021.03.15</span>
+        </p>
+        <button type="text">지원하기</button>
+    </div>
+    <a href="#contact" class="button style2 down anchored">Next</a>
+</section>
+
+<!-- 문의 -->
+<section id="contact" class="main style3 secondary">
+    <div class="content">
+        <header>
+            <h2>INHA BAS에 궁금한 점이 있으신가요?</h2>
+            <p>코멘트를 남겨두시면 메일로 답변을 해드리겠습니다.</p>
+        </header>
+        <div class="box">
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field half"><input type="text" name="name" placeholder="이름"/></div>
+                    <div class="field half"><input type="email" name="email" placeholder="이메일"/></div>
+                    <div class="field"><textarea name="message" placeholder="문의 사항을 입력해주세요." rows="6"></textarea></div>
+                </div>
+                <ul class="actions special">
+                    <li><input type="submit" value="문의 사항 보내기!"/></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+
+    <!-- Icons -->
+    <ul class="icons">
+        <li><a href="https://www.facebook.com/josik97" class="icon brands fa-facebook-f"><span
+                class="label">Facebook</span></a></li>
+        <li><a href="https://www.instagram.com/sik.97/" class="icon brands fa-instagram"><span
+                class="label">Instagram</span></a></li>
+    </ul>
+
+    <!-- Menu -->
+    <ul class="menu">
+        <li>&copy; 믿거조</li>
+        <li>Design: <a href="#"> 인하대학교, IBAS &copy; 믿거조 </a></li>
+    </ul>
+
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
